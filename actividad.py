@@ -22,7 +22,7 @@ for persona in rangos:
         else:
             persona['clasificacionEdad'] = 'Adulto Mayor'
 
-
+#Este codigo esta editadooo 
 with open('ClasificaciónEdades.json', 'w',) as archivo_json:
  
     json.dump(rangos, archivo_json, indent=1,ensure_ascii=False)
